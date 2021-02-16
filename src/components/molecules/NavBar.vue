@@ -24,6 +24,6 @@ export default defineComponent({
   width: max-content;
   display: grid;
   grid-auto-flow: column;
-  grid-gap: 2rem;
+  gap: 0 2rem;
 }
 </style>

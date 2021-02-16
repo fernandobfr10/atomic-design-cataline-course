@@ -1,18 +1,17 @@
 <template>
   <div class="component">
-    <SearchForm />
+    <SocialNetworks />
   </div>
 </template>
 
 <script lang="ts">
-import { SearchForm } from '@/components/molecules'
-
 import { defineComponent } from 'vue'
+import { SocialNetworks } from '@/components/molecules'
 
 export default defineComponent({
   name: 'App',
   components: {
-    SearchForm
+    SocialNetworks
   }
 })
 </script>
