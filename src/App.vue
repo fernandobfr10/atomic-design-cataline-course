@@ -1,12 +1,18 @@
 <template>
-  <h1>Cataline</h1>
+  <div class="component">
+    <SearchForm />
+  </div>
 </template>
 
 <script lang="ts">
+import { SearchForm } from '@/components/molecules'
+
 import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'App',
-  components: {}
+  components: {
+    SearchForm
+  }
 })
 </script>
