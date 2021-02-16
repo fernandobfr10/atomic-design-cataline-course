@@ -1,23 +1,25 @@
 <template>
   <div class="component">
     <Header />
+    <Presentation />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Header } from '@/components/organisms'
+import { Header, Presentation } from '@/components/organisms'
 
 export default defineComponent({
   name: 'App',
   components: {
-    Header
+    Header,
+    Presentation
   }
 })
 </script>
 
 <style lang="scss" scoped>
 .component {
-  margin: 3rem;
+  margin: 5rem;
 }
 </style>
